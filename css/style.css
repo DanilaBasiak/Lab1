@@ -1,0 +1,55 @@
+@font-face {
+    font-family: Unbounded;
+    src: url(../Unbounded-Medium.woff);
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0 0;
+    font-family: "Inter", sans-serif;
+}
+h1 {
+    font-family: Unbounded;
+    font-size: 30px;
+}
+h4 {
+    font-family: Unbounded;
+    font-size: 20px;
+}
+header {
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #99ff3f ;
+    box-shadow: 0 0 10px 2px #2d9500;
+    padding: 20px 120px;
+    z-index: 100;
+}
+header div h2 {
+    font-family: Unbounded;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+head nav {
+    display: block;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 20px;
+}
+header nav ul li a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 400;
+}
