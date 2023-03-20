@@ -26,8 +26,9 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #99ff3f ;
-    box-shadow: 0 0 10px 2px #2d9500;
+    background: rgb(211,161,255);
+    background: linear-gradient(90deg, rgba(211,161,255,1) 40%, rgba(201,116,255,1) 100%);
+    box-shadow: 0 0 10px 2px #19055f;
     padding: 20px 120px;
     z-index: 100;
 }
@@ -36,7 +37,7 @@ header div h2 {
     font-size: 50px;
     margin: 0;
     padding: 0;
-    color: #000000;
+    color: #ffffff;
 }
 head nav {
     display: block;
@@ -52,4 +53,47 @@ header nav ul li a {
     color: #000;
     text-decoration: none;
     font-weight: 400;
+}
+.background {
+    background-image: url(./programowanie.jpg);
+    position: relative;
+    z-index: 9;
+    height: 200px;
+    filter: blur(8px)
+}
+.content {
+    top: 130px;
+    left: 120px;
+    z-index: 10;
+    position: absolute;
+    color: #ffffff;
+    align-items: center;
+    justify-content: space-between;
+}
+.content h1 {
+    color: #ffffff;
+}
+.content span {
+}
+main section div h1 {
+    color: #000000; 
+}
+article {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    background: rgb(255,255,247);
+    background: linear-gradient(90deg, rgba(255,255,247,1) 17%, rgba(254,255,238,1) 100%);
+    padding: 20px 120px;
+    z-index: 100;
+    border: 0.25px solid #000000;
+}
+article ul {
+    display: grid;
+    padding: 20px 20px;
+}
+.kniga {
+    transform: rotate(25deg);
+    border: 1px solid black;
+    fill: white;
 }
